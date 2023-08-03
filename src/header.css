@@ -1,0 +1,36 @@
+.main-header {
+  background-image: var(--redGradient);
+}
+
+.bg-pattern-desktop {
+  background-position-x: 20%;
+  background-position-y: 50%;
+  background-image: url("../src/assets/images/bg-pattern-intro-desktop.svg");
+}
+
+.white-btn {
+  width: 135px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: white;
+  color: var(--lightRed);
+  transition: 0.3s;
+}
+.white-btn:hover {
+  background-color: var(--veryLightRed);
+  color: white;
+}
+
+.outline-btn {
+  width: 135px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid 2px white;
+  color: white;
+  transition: 0.3s;
+}
+
+.outline-btn:hover {
+  background-color: white;
+  color: var(--veryLightRed);
+}
