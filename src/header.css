@@ -34,3 +34,11 @@
   background-color: white;
   color: var(--veryLightRed);
 }
+
+.sign-up-btn {
+  color: white;
+  background-image: var(--redGradient);
+  width: 135px;
+  height: 50px;
+  border-radius: 50px;
+}

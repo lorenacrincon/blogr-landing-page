@@ -1,0 +1,13 @@
+main p {
+  color: var(--veryDarkGrayishBlue);
+  line-height: 2rem;
+  text-align: start;
+  letter-spacing: 0.5px;
+}
+
+main h3 {
+  text-align: start;
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+  color: var(--veryDarkBlue);
+}

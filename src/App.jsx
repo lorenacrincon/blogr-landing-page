@@ -1,12 +1,15 @@
 import "./App.css";
 import "./header.css";
-import Attribution from "./assets/components/Attribution";
-import Header from "./assets/components/Header";
+import "./main.css";
+import Attribution from "./components/Attribution";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
       <Header />
+      <Main />
       <Attribution />
     </>
   );
