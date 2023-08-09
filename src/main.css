@@ -11,3 +11,20 @@ main h3 {
   margin: 20px 0 20px 0;
   color: var(--veryDarkBlue);
 }
+
+.blue-section {
+  background-image: var(--blueGradient);
+}
+
+main h4 {
+  font-size: 38px;
+  margin: 20px 0 20px 0;
+  color: var(--white);
+}
+
+.bg-pattern-section {
+  background-image: url("../src/assets/images/bg-pattern-circles.svg");
+  background-position-y: 85%;
+  background-position-x: -55%;
+  background-repeat: no-repeat;
+}
