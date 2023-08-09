@@ -40,13 +40,13 @@
   --veryDarkBlackBlue: hsl(240, 10%, 16%); /*FOOTER BACKGROUND*/
 
   --redGradient: linear-gradient(
-    90deg,
+    120deg,
     hsl(13, 100%, 72%),
     hsl(353, 100%, 62%)
   );
 
   --blueGradient: linear-gradient(
-    90deg,
+    120deg,
     hsl(237, 17%, 21%),
     hsl(237, 23%, 32%)
   );

@@ -2,20 +2,31 @@ import React from "react";
 import illustrationEditor from "../assets/images/illustration-editor-desktop.svg";
 import illustrationPhones from "../assets/images/illustration-phones.svg";
 import illustrationLaptopDesktop from "../assets/images/illustration-laptop-desktop.svg";
+import illustrationLaptopMobile from "../assets/images/illustration-laptop-mobile.svg";
+import illustrationEditorMobile from "../assets/images/illustration-editor-mobile.svg";
 
 function Main() {
   return (
     <main>
       <section className="my-16 relative">
-        <div className="container px-20">
+        <div className="">
           <div>
-            <h2 className="font-ubuntu font-normal text-blue-950 text-4xl py-20">
+            <h2 className="font-ubuntu font-normal text-blue-950 text-[1.6rem] lg:text-4xl py-10 lg:py-20">
               Designed for the future{" "}
             </h2>
           </div>
-          <div className="flex flex-row gap-10">
-            <div className="basis-1/2 font-ubuntu z-10 pt-2">
-              <h3>Introducing an extensible editor </h3>
+          <div className="grid lg:grid-cols-2">
+            <div className="lg:hidden">
+              <img
+                src={illustrationEditorMobile}
+                alt="illustration Editor"
+                className=""
+              />
+            </div>
+            <div className="text-center lg:text-start font-overpass text-sm  leading-6 z-10 pt-2 px-12 lg:px-20">
+              <h3 className="px-10 lg:p-0">
+                Introducing an extensible editor{" "}
+              </h3>
               <p className="pb-7">
                 Blogr features an exceedingly intuitive interface which lets you
                 focus on one thing: creating content. The editor supports
@@ -24,7 +35,7 @@ function Main() {
                 plugins and themes provide easy ways to add functionality or
                 change the looks of a blog.
               </p>
-              <h3>Robust content management</h3>
+              <h3 className="px-10 lg:p-0">Robust content management</h3>
               <p>
                 Flexible content management enables users to easily move through
                 posts. Increase the usability of your blog by adding customized
@@ -32,30 +43,32 @@ function Main() {
                 you’re in full control.{" "}
               </p>
             </div>
-            <div>
+            <div className="hidden lg:block">
               <img
                 src={illustrationEditor}
                 alt="illustration Editor"
-                className="absolute z-0 top-0 -right-[17rem]"
+                className="absolute top-0 -right-[17rem]"
               />
             </div>
           </div>
         </div>
       </section>
-      <section className="blue-section mt-72 rounded-tr-[100px] rounded-bl-[100px] relative h-[400px] mb-72">
-        <div className="bg-pattern-section absolute f-full w-full">
-          <div className="container px-20 h-[400px] flex">
-            <div className="grid grid-cols-2 content-center ">
-              <div className="relative">
+      <section className="blue-section mt-[370px] rounded-tr-[100px] rounded-bl-[100px] relative h-[626px] lg:h-[400px] lg:mb-72">
+        <div className="bg-pattern-section absolute">
+          <div className="lg:px-20 h-[626px] lg:h-[400px] flex">
+            <div className="grid lg:grid-cols-2 lg:content-center ">
+              <div className="relative ">
                 <img
-                  className="absolute -top-[10rem] -left-10"
+                  className="absolute -top-52 lg:-top-[12rem] lg:-left-10"
                   src={illustrationPhones}
                   alt="Illustration Phones"
                 />
               </div>
-              <div className="font-ubuntu text-white text-start basis-1/2">
-                <h4>State of the Art Infrastructure </h4>
-                <p className="text-white">
+              <div className="text-center lg:text-start font-overpass text-white mt-20 lg:mt-0">
+                <h4 className="px-10 lg:p-0">
+                  State of the Art Infrastructure{" "}
+                </h4>
+                <p className="text-white px-12 lg:p-0 text-sm leading-6">
                   With reliability and speed in mind, worldwide data centers
                   provide the backbone for ultra-fast connectivity. This ensures
                   your site will load instantly, no matter where your readers
@@ -66,16 +79,22 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="my-16 relative ">
-        <div className="container px-20">
-          <div className="flex flex-row justify-end">
+      <section className="my-16">
+        <div className="">
+          <div className="lg:flex lg:flex-row lg:justify-end lg:relative">
+            <div className="lg:hidden">
+              <img
+                src={illustrationLaptopMobile}
+                alt="illustration Laptop"
+                className=""
+              />
+            </div>
             <img
               src={illustrationLaptopDesktop}
               alt="illustration Editor"
-              className="absolute z-0 -top-40 -left-[17rem]"
+              className="absolute -top-40 -left-[17rem] hidden lg:block"
             />
-
-            <div className="basis-1/2 font-ubuntu z-10 pt-2">
+            <div className="lg:basis-1/2 font-overpass z-10 pt-2 text-center lg:text-start px-12 lg:pe-20 lg:p-0">
               <h3>Free, open, simple </h3>
               <p className="pb-7">
                 Blogr is a free and open source application backed by a large

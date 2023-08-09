@@ -2,10 +2,18 @@
   background-image: var(--redGradient);
 }
 
-.bg-pattern-desktop {
-  background-position-x: 20%;
-  background-position-y: 50%;
+.bg-pattern {
+  background-position-x: 25%;
+  background-position-y: 53%;
   background-image: url("../src/assets/images/bg-pattern-intro-desktop.svg");
+}
+
+@media screen and (max-width: 992px) {
+  .bg-pattern {
+    background-position-x: 35%;
+    background-position-y: 38%;
+    background-image: url("../src/assets/images/bg-pattern-intro-mobile.svg");
+  }
 }
 
 .white-btn {

@@ -5,10 +5,10 @@ import Logo from "../assets/images/logo.svg";
 function Footer() {
   return (
     <>
-      <div className="footer-bg py-10 rounded-tr-[100px] mt-72">
-        <div className="px-4 xl:px-[9rem] text-white sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto text-start my-12">
-          <div className="p-5">
-            <img src={Logo} alt="" />
+      <div className="footer-bg py-10 rounded-tr-[100px] mt-20 lg:mt-[350px]">
+        <div className="px-4 xl:px-[9rem] text-white sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto text-center lg:text-start lg:my-12">
+          <div className="p-5 flex items-center lg:items-start">
+            <img src={Logo} alt="Logo" className="mx-auto" />
           </div>
           <div className="p-5">
             <div className="text-sm uppercase  font-bold mb-10">Product</div>

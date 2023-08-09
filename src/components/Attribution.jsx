@@ -2,7 +2,7 @@ import React from "react";
 
 function Attribution() {
   return (
-    <div className=" text-center text-white">
+    <div className=" text-xs text-center text-white">
       Challenge by{" "}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
