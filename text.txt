@@ -50,12 +50,15 @@ Overview
 Pricing 
 Marketplace 
 Features 
-Integrations 
+Integrations
+
 Company 
 About 
 Team 
 Blog 
 Careers 
+
 Connect
 Contact 
-Newsletter LinkedIn
+Newsletter
+LinkedIn

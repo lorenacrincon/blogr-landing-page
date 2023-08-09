@@ -1,16 +1,17 @@
 import "./App.css";
 import "./header.css";
 import "./main.css";
-import Attribution from "./components/Attribution";
+import "./footer.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
       <Main />
-      <Attribution />
+      <Footer />
     </>
   );
 }
