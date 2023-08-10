@@ -16,7 +16,7 @@ function Main() {
             </h2>
           </div>
           <div className="grid lg:grid-cols-2">
-            <div className="lg:hidden">
+            <div className="mx-auto lg:hidden">
               <img
                 src={illustrationEditorMobile}
                 alt="illustration Editor"
@@ -59,12 +59,12 @@ function Main() {
             <div className="grid lg:grid-cols-2 lg:content-center ">
               <div className="relative ">
                 <img
-                  className="absolute -top-52 lg:-top-[12rem] lg:-left-10"
+                  className="absolute -top-52 lg:-top-[12rem] md:left-[6rem] lg:-left-10"
                   src={illustrationPhones}
                   alt="Illustration Phones"
                 />
               </div>
-              <div className="text-center lg:text-start font-overpass text-white mt-20 lg:mt-0">
+              <div className="text-center lg:text-start font-overpass text-white mt-20 md:mt-52 lg:mt-0">
                 <h4 className="px-10 lg:p-0">
                   State of the Art Infrastructure{" "}
                 </h4>
@@ -86,7 +86,7 @@ function Main() {
               <img
                 src={illustrationLaptopMobile}
                 alt="illustration Laptop"
-                className=""
+                className="mx-auto"
               />
             </div>
             <img
