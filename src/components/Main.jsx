@@ -23,7 +23,7 @@ function Main() {
                 className=""
               />
             </div>
-            <div className="text-center lg:text-start font-overpass text-sm  leading-6 z-10 pt-2 px-12 lg:px-20">
+            <div className="text-center lg:text-start font-ubuntu leading-7 z-10 pt-6 px-12 lg:ps-40">
               <h3 className="px-10 lg:p-0">
                 Introducing an extensible editor{" "}
               </h3>
@@ -55,7 +55,7 @@ function Main() {
       </section>
       <section className="blue-section mt-[370px] rounded-tr-[100px] rounded-bl-[100px] relative h-[626px] lg:h-[400px] lg:mb-72">
         <div className="bg-pattern-section absolute">
-          <div className="lg:px-20 h-[626px] lg:h-[400px] flex">
+          <div className="lg:px-40 h-[626px] lg:h-[400px] flex">
             <div className="grid lg:grid-cols-2 lg:content-center ">
               <div className="relative ">
                 <img
@@ -94,7 +94,7 @@ function Main() {
               alt="illustration Editor"
               className="absolute -top-40 -left-[17rem] hidden lg:block"
             />
-            <div className="lg:basis-1/2 font-overpass z-10 pt-2 text-center lg:text-start px-12 lg:pe-20 lg:p-0">
+            <div className="lg:basis-1/2 font-overpass z-10 pt-2 text-center lg:text-start px-12 lg:pe-40 lg:p-0">
               <h3>Free, open, simple </h3>
               <p className="pb-7">
                 Blogr is a free and open source application backed by a large

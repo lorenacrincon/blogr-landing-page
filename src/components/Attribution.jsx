@@ -7,7 +7,7 @@ function Attribution() {
       <a
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
-        className="text-red-400"
+        className="text-red-400 hover:underline"
       >
         Frontend Mentor
       </a>
@@ -15,7 +15,7 @@ function Attribution() {
       <a
         href="https://github.com/lorenacrincon"
         target="_blank"
-        className="text-red-400"
+        className="text-red-400 hover:underline"
       >
         Lorena Rincón
       </a>
