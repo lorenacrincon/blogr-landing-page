@@ -31,11 +31,11 @@ Users should be able to:
 
 ## Desktop
 
-![](/Desktop-capture.png)
+![](./public/Desktop-capture.png)
 
 ## Mobile
 
-![](/Mobile-capture.png)
+![](./public/Mobile-capture.png)
 
 ### Links
 
